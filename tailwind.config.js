@@ -18,6 +18,7 @@ module.exports = {
     fontFamily: {
       redhat: ["RedHat"],
     },
+    
     extend: {
       spacing: {
         "91px": "91px",
@@ -26,6 +27,9 @@ module.exports = {
         "58px": "3.625rem",
         "118px": "118px",
       },
+      fontSize: {
+        "3xl": ["32px","36px"]
+      }
     },
   },
   plugins: [],

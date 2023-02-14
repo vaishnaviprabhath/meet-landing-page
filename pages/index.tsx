@@ -89,11 +89,46 @@ export default function Home() {
           </div>
 
           <div className="pt-16"></div>
-          <p className="font-redhat font-extrabold uppercase tracking-[.25em] text-cyan">
+          <p className="font-redhat text-base font-black uppercase tracking-[.25em] text-cyan">
             Built for modern use
           </p>
           <div className="pt-6"></div>
-          <h2 className=""></h2>
+          <p className="px-6 text-center font-redhat text-3xl font-black">
+            Smarter meetings, all in one place
+          </p>
+          <div className="pt-8"></div>
+          <p className=" px-6 text-center font-redhat text-base leading-[26px]">
+            Send messages, share files, show your screen, and record your
+            meetings — all in one workspace. Control who can join with
+            invite-only team access, data encryption, and data export.
+          </p>
+          <div className="pt-16"></div>
+          <div className="h-20 border border-lightgrey opacity-25"></div>
+
+          <div className="relative z-10 -mb-7 grid h-14 w-14 content-center rounded-full border border-lightgrey bg-white opacity-100 opacity-25">
+            <p className="text-center ">02</p>{" "}
+          </div>
+
+          {/*  Picture -m-7*/}
+          <div className="relative z-0 bg-cyan">
+            <Image
+              className="rounded-lg opacity-10 mix-blend-normal"
+              width={375}
+              height={428}
+              src="/assets/mobile/image-footer.jpg"
+              alt="Logo"
+            ></Image>
+          </div>
+          <p>Experience more together</p>
+          <p>
+            Stay connected with reliable HD meetings and unlimited one-on-one
+            and group video sessions.
+          </p>
+
+          <button className=" flex h-14 w-48 flex-row items-center justify-center rounded-full bg-purple  ">
+            <p className="font-redhat font-bold text-white ">Download</p>
+            <p className="pl-1 font-bold text-lightskyblue ">v1.3</p>
+          </button>
         </div>
       </main>
     </>

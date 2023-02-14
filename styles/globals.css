@@ -8,28 +8,37 @@
 }
 @layer base {
 
-  h1{
+  .extra1{
     font-size: 64px;
     line-height:64px;
     font-weight:bold;
   }
 
-  h2{
+  .mainheading{
     font-size: 40px;
     line-height: 44px;
-    font-weight:bold;
+    font-weight:900;
   }
 
-  .widetext{
+  .subheading{
+    font-size:16px;
+    line-height:26px;
+    font-weight:500;
+    font-style: normal;
+  }
+
+  .extra3{
     font-size:16px;
     line-height:26px;
     letter-spacing: 0.25em;
     text-transform: uppercase;
   }
 
-  p{
+  .extra4{
     font-size:18px;
     line-height:26px;
   }
+
+
   
 }

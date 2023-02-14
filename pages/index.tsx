@@ -44,6 +44,14 @@ export default function Home() {
             </p>{" "}
             <p className="text-lightskyblue font-bold pt-4 ">v1.3</p>
           </button>
+
+          <div className="pt-4 px-118px "></div>
+          <button className="bg-purple rounded-full flex w-139px h-58px opacity-90">
+            <p className="text-white font-redhat font-bold text-center pt-5 pl-8 pr-6">
+              {" "}
+              What is it?
+            </p>
+          </button>
         </div>
       </main>
     </>

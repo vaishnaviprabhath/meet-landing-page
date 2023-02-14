@@ -36,11 +36,13 @@ export default function Home() {
               and collaborate across any device.
             </p>
           </div>
-          <div className="py-4"></div>
+          <div className="px-91px py-4"></div>
 
-          <button className="bg-cyan rounded-full w-48 h-14">
-            <p className="text-white font-redhat ">Download</p>{" "}
-            <p className="text-lightskyblue font-thin">v1.3</p>
+          <button className="bg-cyan flex gap-1 rounded-full w-48 h-14  ">
+            <p className="text-white font-redhat font-bold text-center pt-4 pl-10 ">
+              Download
+            </p>{" "}
+            <p className="text-lightskyblue font-bold pt-4 ">v1.3</p>
           </button>
         </div>
       </main>

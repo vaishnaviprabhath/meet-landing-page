@@ -18,7 +18,12 @@ module.exports = {
     fontFamily: {
       redhat: ["RedHat"],
     },
-    extend: {},
+    extend: {
+      spacing: {
+        "91px": "91px",
+        "553px": "553px",
+      },
+    },
   },
   plugins: [],
 };

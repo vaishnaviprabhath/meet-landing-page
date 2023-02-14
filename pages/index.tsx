@@ -37,20 +37,20 @@ export default function Home() {
             </p>
           </div>
           <div className="py-4"></div>
+          <div className="flex flex-col items-center md:flex-row">
+            <button className="flex h-14 w-48 flex-row items-center justify-center rounded-full bg-cyan  ">
+              <p className="font-redhat font-bold text-white ">Download</p>
+              <p className="pl-1 font-bold text-lightskyblue ">v1.3</p>
+            </button>
 
-          <button className=" flex h-14 w-48 flex-row items-center justify-center rounded-full bg-cyan  ">
-            <p className="font-redhat font-bold text-white ">Download</p>
-            <p className="pl-1 font-bold text-lightskyblue ">v1.3</p>
-          </button>
-
-          <div className=" pt-4 "></div>
-          <button className="grid h-58px w-139px content-center rounded-full bg-purple opacity-90">
-            <p className=" text-center font-redhat font-bold text-white">
-              {" "}
-              What is it?
-            </p>
-          </button>
-
+            <div className="pt-4 md:px-[16px]"></div>
+            <button className="grid h-58px w-139px content-center rounded-full bg-purple opacity-90">
+              <p className=" text-center font-redhat font-bold text-white">
+                {" "}
+                What is it?
+              </p>
+            </button>
+          </div>
           <div className="pt-16"></div>
           <div className="h-20 border border-lightgrey opacity-25"></div>
           <div className="grid h-14 w-14 content-center rounded-full border border-lightgrey opacity-25">
@@ -61,7 +61,7 @@ export default function Home() {
             </div>
           </div>
           <div className="pt-16"></div>
-          <div className="grid grid-flow-col grid-rows-2 items-center gap-6">
+          <div className="grid grid-flow-col grid-rows-2 items-center gap-6 md:grid-rows-1">
             <Image
               className="rounded-lg"
               width={150}

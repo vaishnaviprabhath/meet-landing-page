@@ -8,7 +8,7 @@ export default function Home() {
         <title>Landing Page</title>
       </Head>
       <main>
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center pt-4">
           <Image
             width={119}
             height={28}
@@ -54,7 +54,11 @@ export default function Home() {
           <div className="pt-16"></div>
           <div className="h-20 border border-lightgrey opacity-25"></div>
           <div className="grid h-14 w-14 content-center rounded-full border border-lightgrey opacity-25">
-            <p className="text-center">01</p>{" "}
+            <div className="opacity-100">
+              <p className="text-center font-redhat text-base font-black  text-lightgrey opacity-100">
+                01
+              </p>{" "}
+            </div>
           </div>
           <div className="pt-16"></div>
           <div className="grid grid-flow-col grid-rows-2 items-center gap-6">
@@ -105,30 +109,37 @@ export default function Home() {
           <div className="pt-16"></div>
           <div className="h-20 border border-lightgrey opacity-25"></div>
 
-          <div className="relative z-10 -mb-7 grid h-14 w-14 content-center rounded-full border border-lightgrey bg-white opacity-100 opacity-25">
+          <div className="relative z-10 -mb-7 grid h-14 w-14 content-center rounded-full  border-lightgrey bg-white opacity-100">
             <p className="text-center ">02</p>{" "}
           </div>
 
           {/*  Picture -m-7*/}
-          <div className="relative z-0 bg-cyan">
-            <Image
-              className="rounded-lg opacity-10 mix-blend-normal"
-              width={375}
-              height={428}
-              src="/assets/mobile/image-footer.jpg"
-              alt="Logo"
-            ></Image>
-          </div>
-          <p>Experience more together</p>
-          <p>
-            Stay connected with reliable HD meetings and unlimited one-on-one
-            and group video sessions.
-          </p>
+          <footer className="relative z-0 h-full bg-cyan">
+            <div>
+              <Image
+                className=" absolute opacity-10 mix-blend-normal first-line:rounded-lg"
+                width={375}
+                height={428}
+                src="/assets/mobile/image-footer.jpg"
+                alt="Logo"
+              ></Image>
+            </div>
+            <p className="pt-[96px] text-center font-redhat text-3xl font-black text-white">
+              Experience more together
+            </p>
 
-          <button className=" flex h-14 w-48 flex-row items-center justify-center rounded-full bg-purple  ">
-            <p className="font-redhat font-bold text-white ">Download</p>
-            <p className="pl-1 font-bold text-lightskyblue ">v1.3</p>
-          </button>
+            <p className="px-[24px] pt-[24px] text-center font-redhat text-lg leading-[26px] text-white">
+              Stay connected with reliable HD meetings and unlimited one-on-one
+              and group video sessions.
+            </p>
+            <div className="pt-[32px]"></div>
+            <div className="mb-[72px] flex justify-center">
+              <button className="flex h-14 w-48 items-center justify-center rounded-full bg-purple ">
+                <p className="font-redhat font-bold text-white ">Download</p>
+                <p className="pl-1 font-bold text-lightpurple">v1.3</p>
+              </button>
+            </div>
+          </footer>
         </div>
       </main>
     </>

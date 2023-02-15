@@ -45,34 +45,38 @@ export default function Home() {
                 alt="Logo"
               ></Image>
             </div>
-          </div>
-          <div className="py-6 px-6 lg:py-0 lg:px-0">
-            <h2 className="mainheading text-center font-redhat">
-              Group Chat for Everyone
-            </h2>
-          </div>
 
-          <div className="py-3 lg:py-0"></div>
-          <div className=" px-6 lg:px-0">
-            <p className="subheading text-center font-redhat text-lightgrey">
-              Meet makes it easy to connect with others face-to-face virtually
-              and collaborate across any device.
-            </p>
-          </div>
-          <div className="py-4"></div>
-          <div className="flex flex-col items-center justify-center md:flex-row">
-            <button className="flex h-14 w-48 flex-row items-center justify-center rounded-full bg-cyan  ">
-              <p className="font-redhat font-bold text-white ">Download</p>
-              <p className="pl-1 font-bold text-lightskyblue ">v1.3</p>
-            </button>
+            <div className="py-6 px-6 lg:py-0 lg:px-0">
+              <h2 className="mainheading text-center font-redhat">
+                Group Chat for Everyone
+              </h2>
+            </div>
 
-            <div className="pt-4 md:px-[16px]"></div>
-            <button className="grid h-58px w-139px content-center rounded-full bg-purple opacity-90">
-              <p className=" text-center font-redhat font-bold text-white">
-                {" "}
-                What is it?
+            <div className="py-3 lg:py-0"></div>
+
+            <div className=" px-6 lg:px-0">
+              <p className="subheading text-center font-redhat text-lightgrey">
+                Meet makes it easy to connect with others face-to-face virtually
+                and collaborate across any device.
               </p>
-            </button>
+            </div>
+
+            <div className="py-4 lg:py-0"></div>
+
+            <div className="flex flex-col items-center justify-center md:flex-row">
+              <button className="flex h-14 w-48 flex-row items-center justify-center rounded-full bg-cyan  ">
+                <p className="font-redhat font-bold text-white ">Download</p>
+                <p className="pl-1 font-bold text-lightskyblue ">v1.3</p>
+              </button>
+
+              <div className="pt-4 md:px-[16px]"></div>
+              <button className="grid h-58px w-139px content-center rounded-full bg-purple opacity-90">
+                <p className=" text-center font-redhat font-bold text-white">
+                  {" "}
+                  What is it?
+                </p>
+              </button>
+            </div>
           </div>
         </div>
 

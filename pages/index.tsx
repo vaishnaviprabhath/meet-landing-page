@@ -37,14 +37,6 @@ export default function Home() {
                 alt="Logo"
               ></Image>
             </div>
-            <div className="hidden  lg:block lg:overflow-hidden">
-              <Image
-                width={414}
-                height={153}
-                src="/assets/desktop/image-hero-right.png"
-                alt="Logo"
-              ></Image>
-            </div>
 
             <div className="py-6 px-6 lg:py-0 lg:px-0">
               <h2 className="mainheading text-center font-redhat">
@@ -76,6 +68,14 @@ export default function Home() {
                   What is it?
                 </p>
               </button>
+            </div>
+            <div className="hidden  lg:block lg:overflow-hidden">
+              <Image
+                width={414}
+                height={153}
+                src="/assets/desktop/image-hero-right.png"
+                alt="Logo"
+              ></Image>
             </div>
           </div>
         </div>

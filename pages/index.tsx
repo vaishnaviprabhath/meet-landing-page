@@ -117,10 +117,17 @@ export default function Home() {
           <footer className="relative z-0 h-full bg-cyan">
             <div>
               <Image
-                className=" absolute h-full w-full opacity-10 mix-blend-normal first-line:rounded-lg "
+                className="absolute h-full w-full object-cover opacity-10 mix-blend-normal first-line:rounded-lg md:hidden "
                 width={375}
                 height={428}
                 src="/assets/mobile/image-footer.jpg"
+                alt="Logo"
+              ></Image>
+              <Image
+                className="absolute hidden h-full w-full object-cover opacity-10 mix-blend-normal first-line:rounded-lg md:block "
+                width={768}
+                height={428}
+                src="/assets/tablet/image-footer.jpg"
                 alt="Logo"
               ></Image>
             </div>

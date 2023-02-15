@@ -37,14 +37,14 @@ export default function Home() {
                 alt="Logo"
               ></Image>
             </div>
-            <div className="lg:pt-8">
+            <div className="lg:px-[88px] lg:pt-[61px]">
               <div className="py-6 px-6 lg:py-0 lg:px-0">
                 <h2 className="mainheading text-center font-redhat">
                   Group Chat for Everyone
                 </h2>
               </div>
 
-              <div className="py-3 lg:py-0"></div>
+              <div className="py-3 "></div>
 
               <div className=" px-6 lg:px-0">
                 <p className="subheading text-center font-redhat text-lightgrey">
@@ -53,7 +53,7 @@ export default function Home() {
                 </p>
               </div>
 
-              <div className="py-4 lg:py-0"></div>
+              <div className="py-4 "></div>
 
               <div className="flex flex-col items-center justify-center md:flex-row">
                 <button className="flex h-14 w-48 flex-row items-center justify-center rounded-full bg-cyan  ">

@@ -145,7 +145,7 @@ export default function Home() {
           </div>
 
           {/*  Picture -m-7*/}
-          <footer className="relative z-0 h-full bg-cyan">
+          <footer className="relative z-0 h-full w-full bg-cyan">
             <div>
               <Image
                 className="absolute h-full w-full object-cover opacity-10 mix-blend-normal first-line:rounded-lg md:hidden "

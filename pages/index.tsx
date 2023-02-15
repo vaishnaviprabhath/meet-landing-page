@@ -57,16 +57,20 @@ export default function Home() {
 
               <div className="flex flex-col items-center justify-center md:flex-row">
                 <button className="flex h-14 w-48 flex-row items-center justify-center rounded-full bg-cyan  ">
-                  <p className="font-redhat font-bold text-white ">Download</p>
-                  <p className="pl-1 font-bold text-lightskyblue ">v1.3</p>
+                  <span className="font-redhat font-bold text-white ">
+                    Download
+                  </span>
+                  <span className="pl-1 font-bold text-lightskyblue ">
+                    v1.3
+                  </span>
                 </button>
 
                 <div className="pt-4 md:px-[16px]"></div>
                 <button className="grid h-58px w-139px content-center rounded-full bg-purple opacity-90">
-                  <p className=" text-center font-redhat font-bold text-white">
+                  <span className=" text-center font-redhat font-bold text-white">
                     {" "}
                     What is it?
-                  </p>
+                  </span>
                 </button>
               </div>
             </div>
@@ -173,8 +177,10 @@ export default function Home() {
             <div className="pt-[32px]"></div>
             <div className="mb-[72px] flex justify-center">
               <button className="flex h-14 w-48 items-center justify-center rounded-full bg-purple ">
-                <p className="font-redhat font-bold text-white ">Download</p>
-                <p className="pl-1 font-bold text-lightpurple">v1.3</p>
+                <span className="font-redhat font-bold text-white ">
+                  Download
+                </span>
+                <span className="pl-1 font-bold text-lightpurple">v1.3</span>
               </button>
             </div>
           </footer>

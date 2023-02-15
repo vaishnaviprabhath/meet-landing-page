@@ -16,21 +16,40 @@ export default function Home() {
             alt="Logo"
           ></Image>
           <div className="py-7"></div>
-          <Image
-            width={414}
-            height={153}
-            src="/assets/tablet/image-hero.png"
-            alt="Logo"
-          ></Image>
-          <div className="py-6"></div>
-          <div className="justify-center px-6">
+          <div className="lg:flex lg:flex-row">
+            <div className=" lg:hidden">
+              <Image
+                width={414}
+                height={153}
+                src="/assets/tablet/image-hero.png"
+                alt="Logo"
+              ></Image>
+            </div>
+            <div className="hidden  lg:block lg:overflow-hidden">
+              <Image
+                width={414}
+                height={153}
+                src="/assets/desktop/image-hero-left.png"
+                alt="Logo"
+              ></Image>
+            </div>
+            <div className="hidden  lg:block lg:overflow-hidden">
+              <Image
+                width={414}
+                height={153}
+                src="/assets/desktop/image-hero-right.png"
+                alt="Logo"
+              ></Image>
+            </div>
+          </div>
+          <div className="py-6 px-6 lg:py-0 lg:px-0">
             <h2 className="mainheading text-center font-redhat">
               Group Chat for Everyone
             </h2>
           </div>
 
-          <div className="py-3"></div>
-          <div className="justify-center px-6">
+          <div className="py-3 lg:py-0"></div>
+          <div className=" px-6 lg:px-0">
             <p className="subheading text-center font-redhat text-lightgrey">
               Meet makes it easy to connect with others face-to-face virtually
               and collaborate across any device.

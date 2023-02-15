@@ -117,7 +117,7 @@ export default function Home() {
           <footer className="relative z-0 h-full bg-cyan">
             <div>
               <Image
-                className=" absolute opacity-10 mix-blend-normal first-line:rounded-lg"
+                className=" absolute h-full w-full opacity-10 mix-blend-normal first-line:rounded-lg "
                 width={375}
                 height={428}
                 src="/assets/mobile/image-footer.jpg"

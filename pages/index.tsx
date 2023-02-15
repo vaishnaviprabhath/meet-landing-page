@@ -16,9 +16,13 @@ export default function Home() {
             alt="Logo"
           ></Image>
           <div className="py-7"></div>
+        </div>
+
+        <div className="">
           <div className="lg:flex lg:flex-row">
             <div className=" lg:hidden">
               <Image
+                className="mx-auto"
                 width={414}
                 height={153}
                 src="/assets/tablet/image-hero.png"
@@ -56,7 +60,7 @@ export default function Home() {
             </p>
           </div>
           <div className="py-4"></div>
-          <div className="flex flex-col items-center md:flex-row">
+          <div className="flex flex-col items-center justify-center md:flex-row">
             <button className="flex h-14 w-48 flex-row items-center justify-center rounded-full bg-cyan  ">
               <p className="font-redhat font-bold text-white ">Download</p>
               <p className="pl-1 font-bold text-lightskyblue ">v1.3</p>
@@ -70,6 +74,9 @@ export default function Home() {
               </p>
             </button>
           </div>
+        </div>
+
+        <div className="flex flex-col items-center ">
           <div className="pt-16"></div>
           <div className="h-20 border border-lightgrey opacity-25"></div>
           <div className="grid h-14 w-14 content-center rounded-full border border-lightgrey opacity-25">
